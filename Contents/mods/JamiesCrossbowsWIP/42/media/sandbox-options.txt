@@ -1,0 +1,29 @@
+VERSION = 1,
+
+option JamiesCrossbows.RealBolts
+{
+    type = boolean,
+    default = true,
+    page = JamiesCrossbows,
+    translation = JamiesCrossbows_RealBolts,
+}
+
+option JamiesCrossbows.BoltBreak
+{
+    type = integer,
+    min = 0,
+    max = 100,
+    default = 20,
+    page = JamiesCrossbows,
+    translation = JamiesCrossbows_BoltBreak,
+}
+
+option JamiesCrossbows.StaffLevel
+{
+    type = integer,
+    min = 1,
+    max = 2,
+    default = 1,
+    page = JamiesCrossbows,
+    translation = JamiesCrossbows_StaffLevel,
+}

@@ -1,0 +1,8 @@
+name=Jamie's Crossbows [WIP]
+id=JamiesCrossbowsWIP
+description=Ten glowing crossbows that shoot real bolts: you see each bolt fly, it hits the first zombie in its path, and you pick it up where it lands (some break). Press R to load. New Crossbow skill. Admin rewards. WIP test build.
+poster=poster.png
+icon=icon.png
+authors=Jamie
+modversion=0.1.1
+versionMin=42.0.0

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>JC_CrossbowLoad</m_Name>
+	<m_AnimName>Bob_Reload_Lever_Rack</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.20</m_BlendTime>
+	<m_EarlyTransitionOut>true</m_EarlyTransitionOut>
+	<m_SpeedScale>JCReloadSpeed</m_SpeedScale>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_ConditionPriority>10</m_ConditionPriority>
+	<m_Conditions x_name="5c0d7a1e-2f4b-4c8e-9a61-7b3e0c1d2a01">
+		<m_Name>PerformingAction</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>Reload</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="5c0d7a1e-2f4b-4c8e-9a61-7b3e0c1d2a02">
+		<m_Name>WeaponReloadType</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>boltactionnomag</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="5c0d7a1e-2f4b-4c8e-9a61-7b3e0c1d2a03">
+		<m_Name>isLoading</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="5c0d7a1e-2f4b-4c8e-9a61-7b3e0c1d2a04">
+		<m_Name>JCCrossbow</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Events x_name="5c0d7a1e-2f4b-4c8e-9a61-7b3e0c1d2a11">
+		<m_EventName>playReloadSound</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue>insertAmmoStart</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="5c0d7a1e-2f4b-4c8e-9a61-7b3e0c1d2a12">
+		<m_EventName>playReloadSound</m_EventName>
+		<m_TimePc>0.65</m_TimePc>
+		<m_ParameterValue>load</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="5c0d7a1e-2f4b-4c8e-9a61-7b3e0c1d2a13">
+		<m_EventName>loadFinished</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue></m_ParameterValue>
+	</m_Events>
+</animNode>

@@ -1,0 +1,24 @@
+{
+  "IG_UI.json": {
+    "IGUI_perks_Crossbow": "Crossbow",
+    "IGUI_perks_Crossbow_Description": "Shooting Jamie's Crossbows. Each level makes a shot less likely to break the bolt. Accuracy comes from Aiming.",
+    "IGUI_JC_Admin": "Jamie's Crossbows (admin)",
+    "IGUI_JC_Admin_Bolts": "Crossbow Bolts (bundle of %1)",
+    "IGUI_JC_Given": "Given: %1",
+    "IGUI_JC_NotStaff": "Only admins can do that.",
+    "IGUI_JC_Failed": "That did not work (see the server log)."
+  },
+  "Sandbox.json": {
+    "Sandbox_JamiesCrossbows": "Jamie's Crossbows",
+    "Sandbox_JamiesCrossbows_BoltBreak": "Bolt breaks per shot (percent)",
+    "Sandbox_JamiesCrossbows_BoltBreak_tooltip": "How often a shot breaks the bolt instead of dropping it where it lands. The Crossbow skill lowers it (level 10: half). 0 = bolts never break.",
+    "Sandbox_JamiesCrossbows_RealBolts": "Real bolts",
+    "Sandbox_JamiesCrossbows_RealBolts_tooltip": "On: a bolt is a real projectile you see fly; it hits the first zombie or wall in its path (the server decides). Off: the game's own gun shot (instant hit, bullet streak).",
+    "Sandbox_JamiesCrossbows_StaffLevel": "Who can give crossbows",
+    "Sandbox_JamiesCrossbows_StaffLevel_tooltip": "1 = admins only, 2 = admins and moderators."
+  },
+  "ContextMenu.json": {
+    "ContextMenu_FireMode_Crossbow": "Single (crossbow)"
+  },
+  "Tooltip.json": {}
+}

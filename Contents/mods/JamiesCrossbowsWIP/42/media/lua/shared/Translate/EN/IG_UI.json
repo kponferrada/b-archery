@@ -1,0 +1,9 @@
+{
+  "IGUI_perks_Crossbow": "Crossbow",
+  "IGUI_perks_Crossbow_Description": "Shooting Jamie's Crossbows. Each level makes a shot less likely to break the bolt. Accuracy comes from Aiming.",
+  "IGUI_JC_Admin": "Jamie's Crossbows (admin)",
+  "IGUI_JC_Admin_Bolts": "Crossbow Bolts (bundle of %1)",
+  "IGUI_JC_Given": "Given: %1",
+  "IGUI_JC_NotStaff": "Only admins can do that.",
+  "IGUI_JC_Failed": "That did not work (see the server log)."
+}
